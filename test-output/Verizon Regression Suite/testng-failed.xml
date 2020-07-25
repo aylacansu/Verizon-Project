@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Verizon Regression Suite]" parallel="methods">
+  <parameter name="browser" value="chrome"/>
+  <test name="Verizon Functional Regression Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.verizon.test.CardPageTest"/>
+      <class name="com.qa.verizon.test.MainPageTest"/>
+      <class name="com.qa.verizon.test.SelectedPhonePageTest"/>
+      <class name="com.qa.verizon.test.SmartPhonePageTest"/>
+    </classes>
+  </test> <!-- Verizon Functional Regression Test -->
+</suite> <!-- Failed suite [Verizon Regression Suite] -->
